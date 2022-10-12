@@ -1,0 +1,52 @@
+Notes Oct 10th 2022:
+
+4PM Lab on discord/ career services
+
+Git Intro Notes:
+
+Git is a Distributed Version Control System. DVCS
+Means no central server is required, work can be done offline. Colaboration is easy with this.
+Allows to keep track of all versions of software and changes made.
+Git works on any platform.
+Git tracks changes to files.
+
+Version Control is a means for managing your source code.
+Allows access to previous versions of your code, history of changes.
+Have multiple working copies of code
+Makes backing up code trivial
+Easy to share you work with others.
+
+Git is not the same as GitHub
+Git is a tool to manage your source code history.
+GitHub is a hosting service for Git repositories.
+
+My PC is a local repository.  GitHub is a remote repository, in the cloud.
+
+Commits means saving in Git.
+
+git commit commmand captures a snapshot of the projects current staged changes.
+
+git clone:
+puts a copy of the remote repository on your machine
+
+git push:
+move changes from local repo to remote repo
+
+git pull:
+pulls latest version from remote repo to local repo
+
+GIT WORKFLOW
+git add command adds a change in the working directory to the staging area.
+
+git add <filename> add a specific file to staging area
+
+git add . (aka git add all)
+. stands for all.  Easy way to add all chnages to staging area
+
+git commit -m "a descriptive message"
+
+git push -u origin main # only for first push
+git push #you can just git push after you setup the -u(upsteram flag) on whater branch you specified(main).
+
+
+

@@ -1,0 +1,9 @@
+Branching is a good method to safeguard code against accidental bug inputs.
+Branching allows a developer to branch out from the original code base and isolate their work from others.
+To list branches: git branch
+To create a branch: git branch <branch name>
+To switch branches: git checkout <branch name>
+To push to GitHub: git push origin <branch name>
+To merge a branch: git merge <branch name> Must be on main branch
+To delete a branch: git branch -d <branch name>
+To delete a branch regardless of error(changes that havent been commited): git branch -D <branch name> Note the D

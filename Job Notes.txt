@@ -1,0 +1,29 @@
+Convert to Functional Resume
+Entry Level positions or no prior experince benefit from this type of resume.
+functional resume focuses on skills and experience.
+Gives you the opportunity to create your Personal Brand.
+First glimpse of who we are now, and who we want to be.
+Helps to set us apart. Most have a Chronological Resume.
+Address the companies problem areas and how we can help solve those problems.
+
+Phone Number
+Email
+Headline (the job you want)
+Linkedin URL
+GitHub
+Codewars
+Portfolio
+
+Summary: Short and sweet.
+Skills: 
+Certifications: AWS,SCRUM,CISSP example
+Education: TrueCoders
+Experience:The projects that we create will be our experience.
+
+Keywords: Use keywords from the job description in your resume
+Relevant Projects: Software Experience, paid or unpaid.  Projects demonstrate your success n developing and completing tasks.
+
+ATS: Applicant Tracking System.
+Companies Use ATS to filter resumes.  Keywords help resumes get through this system.
+
+
