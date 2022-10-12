@@ -1,3 +1,4 @@
+Git: Branching and Merging
 Branching is a good method to safeguard code against accidental bug inputs.
 Branching allows a developer to branch out from the original code base and isolate their work from others.
 To list branches: git branch
