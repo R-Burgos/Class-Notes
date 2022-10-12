@@ -1,0 +1,15 @@
+CLI: command-line interface
+
+Solution file (.sln) 
+A solution is a container used by Visual Studio to organize one or more related projects.
+When you open a solution in VS, it automatically loads all the projects the solution contains.
+Think of the solution as the application that contains all the other files that make it work.
+
+Project file (.csproj)
+Contains all the source code that is compiled. It contains compiler settings and other configuration files.
+Think of this as the first main folder within the application.  This folder holds all your code.
+
+Source code (.cs) <- cs for C#
+This is the code that you write.
+
+Solution files contain project files which contain source code.
