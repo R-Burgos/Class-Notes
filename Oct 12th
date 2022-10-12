@@ -8,3 +8,22 @@ To push to GitHub: git push origin <branch name>
 To merge a branch: git merge <branch name> Must be on main branch
 To delete a branch: git branch -d <branch name>
 To delete a branch regardless of error(changes that havent been commited): git branch -D <branch name> Note the D
+
+Git: Conflict Resolution
+
+Steps to resolve merge conflicts
+1. Abort: git merge --abort 
+2. Resolve the conflict manually: go throught the code and make edits.
+2a. git diff --color-words main..branch1 filename.txt
+2b. git show --color-words
+2(1):Take out the fit markers and choose what changes we want.
+2(1)a:git status/ git add filename.txt/ git status/ git commit -m "descriptive message"
+DONE
+
+Steps to resolve merge conflicts manually
+1. Inspect the newBranch -> git checkout newBranch
+2. Switch to main branch -> git checkout main
+3. Merge newBranch into main -> git merge newBranch
+4. Resolve the merge conflict(choose what to keep)
+5. After we choose,stage and commit -> git status/git add ./git status/git commit -m "message"
+DONE
