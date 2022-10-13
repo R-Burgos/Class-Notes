@@ -1,0 +1,49 @@
+Oct 13th Class notes for C# Value and Refrence Types
+
+Value types actually hold values
+https://learn.truecoders.io/csharp/types/
+^^ List of value types
+
+Strongly: Hold on tight to its types
+Meaning that once a variable's type is declared, it cannot change.
+
+Statically: every variable must have a type at compile time.
+
+Value Types are stored in a location called the stack(memory)
+The Stack is used for static memory allocation.
+LAST IN, FIRST OUT
+So the last item that enters the stack is the first item that leaves.
+
+Value types store the actual data rather than a refrence to it.
+Value types are not automatically nullable.
+A value type followed by a ? will make them nullable.
+Example:
+int? myInteger = null; // nullable int
+
+Null is not the same as 0 or an empty string ""
+Null represents the absence of value, noting is stored in memory or to disk
+
+
+Decimal type:
+decimal myDecimal = 12457.1587m;
+must end in m
+
+Enum
+when you want to limit the value set to a fixed amount of options
+cannot be changed after you set it.
+Example
+public enum Day { Sun, Mon, Tue, Wed, Thu, Fri, Sat };
+var dayOfWeek = Day.Tue;
+
+Value types are stored in the stack
+Not auto nullable
+To clear you must go from last to first
+
+Refrence Types:
+automatically nullable
+These objects store references to the actual data
+Stored in the Heap. 
+The Heap is used for dynamic memory allocation.
+
+Array allows you to combine multiple variables of the same type in a single variable.
+You declare an array type by specifyin the type, followed by []
