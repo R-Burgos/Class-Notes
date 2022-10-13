@@ -13,3 +13,30 @@ Source code (.cs) <- cs for C#
 This is the code that you write.
 
 Solution files contain project files which contain source code.
+
+
+
+Dotnet is a tool for managing .NET source code and binaries.
+Dotnet Commands:
+
+dotnet new: creates a new project, configuration file, or solution based on the specified template
+dotnet new console -> creates a new console application 
+
+dotnet build: builds a project and all of its dependencies
+
+dotnet run: runs source code without any explicit compile or launch commands
+the dotnet run command provides a convenient option to run your app from the source code with one command
+the command depends on the dotnet build command to build the code
+
+dotnet sln: command provides a convenient way to add, remove, and list projects in a solution file.
+dotnet new sln
+
+dotnet test: command is used to execute unit test in a given project.
+the command launches the test runner console application specified for a project.
+the test runner executes the tests defined for a unit test framework and reports on each test.
+if project path is not specified, its defaults to the current directory.
+example: 
+dotnet test ~/projects/test1/test1.csproj
+if tests are successful- returns a 0 as an exit code.  fails return a 1
+
+dotnet clean: command cleans the output of the previous build. 
