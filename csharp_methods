@@ -1,0 +1,14 @@
+
+Code has scope { }
+Everything inside of the scope belongs to the line above.
+Example:
+static void Main(string[] args)
+{
+  THIS IS THE SCOPE FOR ^
+}
+
+Methods examples:
+Console.ReadLine()
+Console.WriteLine()
+
+

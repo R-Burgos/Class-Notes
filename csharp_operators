@@ -1,0 +1,102 @@
+Operations usually have two parts:
+an Operator (+ , * , - , /)
+an Operand (the thing that the operator works on Ex. 1, 451, 78542)
+one operand: Unary operators
+two operand: Binary operators
+three operand: Ternary operators
+
+Arithmetic Operator:
++  Addition
+-  Subtraction
+*  Multiplication
+/  Division
+%  Returns the remainder
+
+Unary Operator:
+Increment ++  pre-increment or prefix, value is incremented instally
+int x = 3
+int y = ++x
+x is 4 y is 4
+
+Post-Increment or postfix, reserved temp until execution of this statement and it gets updated before the execution of the next statement.
+x++ // equals x = x+1
+int x = 10
+x++
+outputs 11 for x
+
+Decrement: --x pre-decrement
+post-decrement x--
+
+Relational Operators:
+== means Equal To
+Used to compare two values or make a condition
+
+!= means Not Equal To
+Used to compare two values
+
+> Greater Than
+< Less Than 
+>= Greater Than Equal To
+<= Less Than Equal To
+
+Logical Operators:
+&& The AND operator
+returns a true when both conditions are satisfied
+EX: 5==5 && 5>10
+Returns False
+
+|| The OR operator (Double Pipes)
+returns true when one or both conditions are satisfied
+
+! The NOT operator
+returns true if the opposite of what you have
+Example x>5 true
+!(x>5) False
+
+Assignment Operator:
+
+= simple Assignment
+
++= Add Assignment
+EXample a+=b -> a = a+b
+
+-= Subtraction Assignment
+a -= b -> a = a-b
+
+*= Multiply Assignment
+a *= b -> a = a*b
+
+/= Division Assignment
+a /= b -> a = a/b
+
+%= Modulus Assignment
+a %= b -> a = a % b
+
+Ternary Operator
+AKA the inline-if, shorthand of an if-else statement
+returns one of two values depending on the vale of the Boolean expression
+
+syntax:
+condition ? trueScope : falseScope;
+
+condition: must be evaluated to true or false
+if condition is true: the trueScope is evaluated and becomes the result
+if condition is false: the falseScope is evaluated and becomes the result
+Example:
+var i = 1;
+var positiveMessage = (i > 0) ? "You are positive!" : "You're not positive.";
+
+Null Coalescing Operator
+allows you to ecaluate an expression and provodes a fallback value in the event that the expression is Null
+syntax
+var exampleValue = possiblyNullValue ?? someDefaultValue;
+int? a = Null
+int? x = a ?? 100
+Console.WriteLine(x); //outputs 100 b/c a is Null
+
+Null-Conditional Operator
+syntax
+var exampleList = new List<string>();
+var exampleValue = exampleList?.Add("myString");
+opperator applies an operation to its operand only if that operand is non-null. Otherwise the result of applying the operator is null
+
