@@ -1,0 +1,8 @@
+Method Overloading
+Methods cannot have the same name but they can have a similar signature.
+A signature is methods having the same method name, return type, and same parameters.
+Allows methods to be used for lots of different situations.
+
+Method overloading is when multiple methods have the same name but different parameters.
+When the method is called the arguments are the data you pass into the methods parameters.
+Essentially copy the method and change the return type and input type.  Keep the same name, the parameters change.
